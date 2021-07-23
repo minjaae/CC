@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "837162321876",
+    "project_id": "new-car-cinema",
+    "storage_bucket": "new-car-cinema.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837162321876:android:1a8af734408014a2c73841",
+        "android_client_info": {
+          "package_name": "com.carcinema.cc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837162321876-6kghnfhuc71sf8t95ph5j4uuo0a5g3ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpt2AjnqOOisBF-zwtzXOHFQ26LuI3DKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837162321876-6kghnfhuc71sf8t95ph5j4uuo0a5g3ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837162321876:android:7419fdcf0e28f021c73841",
+        "android_client_info": {
+          "package_name": "com.carcinma.cc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837162321876-e90b3vn899qq74uuanjak4ffiino6tqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.carcinma.cc",
+            "certificate_hash": "8bb0c0f55c819c56922d244a152fa608495a0cab"
+          }
+        },
+        {
+          "client_id": "837162321876-6kghnfhuc71sf8t95ph5j4uuo0a5g3ki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpt2AjnqOOisBF-zwtzXOHFQ26LuI3DKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837162321876-6kghnfhuc71sf8t95ph5j4uuo0a5g3ki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

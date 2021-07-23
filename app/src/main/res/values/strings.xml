@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cc</string>
+
+    <string name="naver_client_id">r0JLl46dLK8EI2_rlwco</string>
+    <string name="naver_client_secret">Xh8thMlJpN</string>
+    <string name="naver_client_name">cc</string>
+</resources>

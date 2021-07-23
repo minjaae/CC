@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464E7E">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="292dp"
+            android:layout_height="67dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/small_logo"></ImageView>
+
+        <ImageView
+            android:id="@+id/login_btn"
+            android:layout_width="52dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/login"></ImageView>
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        map:cameraTargetLat="37.541"
+        map:cameraTargetLng="126.986"
+        map:cameraZoom="10"></fragment>
+
+    <ListView
+        android:id="@+id/ccListView"
+        android:layout_width="363dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center">
+    </ListView>
+
+</LinearLayout>
